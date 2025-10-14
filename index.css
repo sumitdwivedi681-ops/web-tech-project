@@ -63,6 +63,89 @@ ul li ul {
     min-width: 150px;
 }
 
+div.portfolio {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+    border: 2px solid #ddd;
+    width: 90%;
+    height: auto;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+
+}
+
+.portfolio-image {
+    /* width: 350px;
+    height: 250px; */
+    justify-content: center;
+    text-align: center;
+    display: block;
+    border-radius: 40%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 5px 10px 15px 10px;
+    border: 4px solid #ff7e5f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+}
+
+.portfolio-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.portfolio-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-indent: 0;
+}
+
+.portfolio-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: #1a73df;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    &:hover {
+        background: #155ab6;
+    }   
+}
+
 h3 {
     text-align: center;
     color: rgba(24, 22, 22);
@@ -73,6 +156,7 @@ h3 {
     letter-spacing: 3px;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu {

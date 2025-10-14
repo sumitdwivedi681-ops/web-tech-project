@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #667eead4, #764ba2cf);
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -24,6 +24,14 @@ h1{
     letter-spacing: 3px;
     font-weight: 900;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background: linear-gradient(145deg, #ffffffe2, #3e3c3ce0);
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 25px;
 }
 
 h2, h3 {

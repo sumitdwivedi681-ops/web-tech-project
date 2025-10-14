@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(135deg,#d815d1c0, #1a3bdfb9);
+}
+
+
+form.submitionForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50rem;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+    background: #ddd;
+    border: 1px solid #333;
+    border-radius: 15px;
+}
+
+form.submitionForm:hover {
+    box-shadow: 0 48px 56px rgba(0, 0, 0, 0.683);
+    transform: translateY(-4px);
+}
+form.submitionForm input[type="text"],
+form.submitionForm input[type="email"],
+form.submitionForm input[type="text"],
+form.submitionForm input[type="email"],
+form.submitionForm input[type="password"],
+form.submitionForm select:focus,
+form.submitionForm textarea:focus {
+    border-color: #1a3bdf;
+    box-shadow: 0 0 5px rgba(26, 59, 223, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 8px;
+    width: 95%;
+    text-align: center;
+}
+
+
+form.submitionForm.button input[type="submit"] {
+    background: #1a3bdf;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+form.submitionForm.button input[type="submit"]:hover {
+    background: #155bb5;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+form.submitionForm label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0c0b0b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-indent: 0;
+    text-align: left;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+    color: #1a3bdf;
+}
+
+form.submitionForm label:hover {
+    color: #155bb5;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-indent: 0;
+    text-align: left;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+    font-weight: 700;
+}
+
